@@ -23,7 +23,7 @@ H1 {
 }
 main{
   padding-top: 16px;
-  display:
+  display: grid;
     grid-template-areas:
     'aside article article'
     'asidefooterfooter';
