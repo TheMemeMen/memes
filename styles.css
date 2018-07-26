@@ -1,8 +1,9 @@
 body {
 background-color: #b2b2b2;
+  padding: 30px;
 }
 nav{
-  padding: 30ps;
+  padding: 30px;
   bacground-color: #f4e1d2;
   position: sticky;
   top: 0;
