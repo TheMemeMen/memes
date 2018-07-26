@@ -22,18 +22,27 @@ H1 {
   text-align: center; 
 }
 main{
-  padding-top: 16px
+  padding-top: 16px;
+  display:
+    grid-template-areas:
+    'aside article article'
+    'asidefooterfooter';
+  grid-gap: 30px;
 }
 aside {
+  grid-area: aside;
 padding: 30px;
   background-color: #ff7b25; 
 color:black;
 }
-article { padding: 30px;
+article { 
+    grid-area: article;
+  padding: 30px;
   background-color: #3e4444; 
   color: white;
 }
 footer{
+    grid-area: footer;
   padding: 30px;
   background-color:#82b74b; 
 color: black;
